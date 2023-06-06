@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 toggle = True
 for i in range(122, 96, -1):
-    if toggle == True:
+    if toggle is True:
         print("{}".format(chr(i)), end="")
         toggle = False
     else:
