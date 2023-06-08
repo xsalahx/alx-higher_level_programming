@@ -1,3 +1,2 @@
 #!/usr/bin/python3
-a = "#pythoniscool"
-a
+__builtins__.__dict__['sys'].stdout.write("#pythoniscool")
