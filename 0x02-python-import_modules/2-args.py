@@ -6,7 +6,7 @@ if __name__ == "__main__":
     lenght = len(sys.argv)
     print(f"{lenght - 1} argument", end="")
     if lenght == 1:
-        print(".")
+        print("s.")
     elif lenght == 2:
         print(":")
         print(f"1: {sys.argv[1]}")
